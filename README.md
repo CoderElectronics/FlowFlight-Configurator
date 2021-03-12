@@ -1,31 +1,25 @@
-# Emuflight Configurator
+# FlowFlight Configurator
 
-**Emuflight Configurator** is a crossplatform configuration tool for the [Emuflight](https://github.com/emuflight) flight control system.
+**FlowFlight Configurator** is a crossplatform configuration tool for the [FlowFlight](https://github.com/emuflight) flight control system.
 
-![Emuflight](.github/screenshot.png)
-
-**Various types** of aircraft are supported by the tool and by Emuflight
+**Various types** of aircraft are supported by the tool and by FlowFlight
 
  * quadcopters
  * hexacopters
  * octocopters
- * fixed-wing aircraft.
 
-The application allows you to configure the Emuflight software running on any [supported Emuflight target](https://github.com/emuflight/EmuFlight/tree/master/src/main/target).
+The application allows you to configure the Flowflight software running on any [supported Flowflight target](https://github.com/CoderElectronics/FlowFlight/tree/master/src/main/target).
 
 ## Downloads
 
-Please [download our releases](https://github.com/emuflight/EmuConfigurator/releases) at GitHub.
-
-[![Build Status](https://travis-ci.org/emuflight/EmuConfigurator.svg?branch=master)](https://travis-ci.org/emuflight/EmuConfigurator)
-
+Please [download our releases](https://github.com/CoderElectronics/FlowFlight-Configurator/releases) at GitHub.
 ## Authors
 
-Emuflight Configurator is a [fork](#credits) of the Cleanflight Configurator with support for Emuflight instead of Cleanflight.
+FlowFlight Configurator is a [fork](#credits) of the Cleanflight Configurator with support for FlowFlight instead of Cleanflight.
 
-This configurator is the only configurator with support for Emuflight specific features!
+This configurator is the only configurator with support for FlowFlight specific features!
 
-If you are experiencing any problems please make sure you are running the [latest firmware version](https://github.com/emuflight/EmuFlight/releases).
+If you are experiencing any problems please make sure you are running the latest firmware.
 
 ## Installation
 
@@ -33,7 +27,7 @@ If you are experiencing any problems please make sure you are running the [lates
 
 This is the default installation method, and at some point in the future this will become the only way available for most platforms. Please use this method whenever possible.
 
-Please download the installer from the [Release](https://github.com/emuflight/EmuConfigurator/releases) page.
+Please download the installer from the [Release](https://github.com/CoderElectronics/FlowFlight-Configurator/releases) page.
 
 ### Apple OSX/Mac
 
@@ -90,8 +84,7 @@ If no platform is provided, all the platforms will be done in sequence.
 You can also use multiple platforms e.g. `yarn gulp <taskname> --osx64 --linux64`.
 
 ## Languages
-
-Emuflight Configurator has been translated into [several languages](https://github.com/emuflight/EmuConfigurator/tree/master/locales).
+FlowFlight Configurator has been translated into [several languages](https://github.com/CoderElectronics/FlowFlight-Configurator/tree/master/locales).
 
 The application will try to detect and use your system language if a translation into this language is available.
 
@@ -116,26 +109,3 @@ sudo usermod -aG dialout $USER
 If you have 3D model animation problems, enable "Override software rendering list" in Chrome flags at
 
 `chrome://flags/#ignore-gpu-blacklist`
-
-## Support
-
-If you need help __please__ reach out in [Emuflight support chat](https://discordapp.com/channels/547211754845765635/596913667447062547) on Discord before raising issues on Github.
-
-Please register and [join via this link](https://discord.gg/gdP9CwE).
-
-### Issue trackers
-
- * For Emuflight configurator issues raise them at
-   https://github.com/emuflight/EmuConfigurator/issues
- * For Emuflight firmware issues raise them at
-   https://github.com/emuflight/EmuFlight/issues
-
-Thank you!
-
-## Developers
-
-We accept clean and reasonable patches, please [submit them](https://github.com/emuflight/EmuConfigurator/pulls)!
-
----
-
-![Emuflight](.github/EmuFlight.png)
