@@ -1,6 +1,6 @@
 # FlowFlight Configurator
 
-**FlowFlight Configurator** is a crossplatform configuration tool for the [FlowFlight](https://github.com/emuflight) flight control system.
+**FlowFlight Configurator** is a crossplatform configuration tool for the [FlowFlight](https://github.com/CoderElectronics/FlowFlight) flight control system.
 
 **Various types** of aircraft are supported by the tool and by FlowFlight
 
