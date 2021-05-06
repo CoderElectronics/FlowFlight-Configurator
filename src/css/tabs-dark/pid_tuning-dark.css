@@ -98,7 +98,7 @@
 }
 
 .pid_roll {
-    background-color: rgb(80, 9, 9);
+    background-color: rgb(75, 15, 12);
 }
 
 .pid_pitch {
@@ -121,7 +121,7 @@
 }
 
 .tab-pid_tuning .pid_titlebar_bling {
-  background-color: #288fda;
+  background-color: #6BBF59;
 }
 
 .tab-pid_tuning .number input {

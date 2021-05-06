@@ -1,6 +1,6 @@
 :root {
-    --accent: #22b7eb;
-    --error: red;
+    --accent: #08A045;
+    --error: #DDB771;
     --subtleAccent: #dddddd;
     --quietText: #ffffff;
     --quietHeader: #828885;
@@ -76,11 +76,11 @@ input[type=range]::-webkit-slider-runnable-track {
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   box-shadow: 0px 0px 0px #000000;
-  border: 2px solid #2497E3;
+  border: 2px solid #08A045;
   height: 22px;
   width: 7px;
   border-radius: 7px;
-  background: #22B7EB;
+  background: #08B025;
   cursor: pointer;
   margin-top: -10.5px;
 }
@@ -114,7 +114,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     margin-top: -45px;
     background-color: var(--accent);
     border-radius: 3px;
-    border: 1px solid #2297eb;
+    border: 1px solid #08A045;
     color: #000;
     float: right;
     font-family: 'open_sansbold', Arial;
@@ -127,7 +127,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .cf_doc_version_bt a:hover {
-    background-color: #fecb3f;
+    background-color: #073B3A;
     transition: all ease 0.2s;
 }
 
@@ -1132,7 +1132,7 @@ dialog {
 }
 
 .content_toolbar .btn a:hover {
-    background-color: #ffcc3e;
+    background-color: #DDB771;
     transition: all ease 0.2s;
 }
 
@@ -1378,7 +1378,7 @@ dialog {
 }
 
 .fixed_band .save_btn a:hover {
-    background-color: #6edbff;
+    background-color: #6BBF59;
     transition: all ease 0.2s;
 }
 
@@ -1396,7 +1396,7 @@ dialog {
     text-align: center;
     background-color: var(--accent);
     border-radius: 4px;
-    border: 1px solid #2297eb;
+    border: 1px solid #0B6E4F;
     color: #000;
     font-family: 'open_sanssemibold', Arial;
     font-size: 12px;
@@ -1413,7 +1413,7 @@ dialog {
 }
 
 .default_btn a:hover {
-    background-color: #6edbff;
+    background-color: #6BBF59;
     color: #000;
     text-shadow: 0px 1px rgba(255, 255, 255, 0.25);
     transition: all ease 0.2s;
@@ -1422,7 +1422,7 @@ dialog {
 }
 
 .default_btn a:active {
-    background-color: #6edbff;
+    background-color: #6BBF59;
     transition: all ease 0.0s;
     box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.35);
 }
@@ -1437,7 +1437,7 @@ dialog {
     margin-right: 10px;
     background-color: var(--accent);
     border-radius: 3px;
-    border: 1px solid #2297eb;
+    border: 1px solid #073B3A;
     color: #000;
     font-family: 'open_sansbold', Arial;
     font-size: 12px;
@@ -1493,13 +1493,13 @@ dialog {
     background-color: var(--accent);
     text-shadow: 0px 1px rgba(255, 255, 255, 0.25);
     color: #000;
-    border: 1px solid #2297eb;
+    border: 1px solid #073B3A;
     transition: all ease 0.2s;
 }
 
 .green a:hover {
-    background-color: #6edbff;
-    border: 1px solid #2297eb;
+    background-color: #08B025;
+    border: 1px solid #0B6E4F;
     text-shadow: 0px 1px rgba(255, 255, 255, 0.25);
     color: #000;
     transition: all ease 0.2s;
@@ -1613,7 +1613,7 @@ dialog {
 
 .connect_b a.connect {
     background-color: var(--accent);
-    border: 1px solid #2297eb;
+    border: 1px solid #08A045;
     background-image: url(../images/icons/cf_icon_usb2_white.svg);
     background-repeat: no-repeat;
     background-size: 44px;
@@ -1622,7 +1622,7 @@ dialog {
 }
 
 .connect_b a.connect:hover {
-    background-color: #6edbff;
+    background-color: #08B025;
 }
 
 .connect_b a.connect.active {
@@ -1659,7 +1659,7 @@ dialog {
 
 .firmware_b a.flash {
     background-color: var(--accent);
-    border: 1px solid #2297eb;
+    border: 1px solid #0B6E4F;
     background-image: url(../images/icons/cf_icon_flasher_white.svg);
     background-repeat: no-repeat;
     background-size: 30px;
@@ -1668,7 +1668,7 @@ dialog {
 }
 
 .firmware_b a.flash:hover {
-    background-color: #6edbff;
+    background-color: #08B025;
 }
 
 .firmware_b a.flash.active {
@@ -1980,7 +1980,7 @@ button {
 
 button.active {
     background-color: var(--accent);
-    border: 1px solid #2297eb;
+    border: 1px solid #08B025;
     color: #000;
 }
 

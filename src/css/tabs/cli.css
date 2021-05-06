@@ -74,7 +74,7 @@
 }
 
 .tab-cli .window .error_message {
-    color: red;
+    color: #DDB771;
     font-weight: bold;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .cli-textcomplete-dropdown .active {
-    background-color: rgb(255, 187, 0);
+    background-color: #DDB771;
 }
 
 .cli-textcomplete-dropdown {

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Emuflight Configurator
-Comment=Crossplatform configuration tool for the Emuflight flight control system
+Name=Flowflight Configurator
+Comment=Crossplatform configuration tool for the Flowflight flight control system
 Exec=/opt/emuflight/emuflight-configurator/emuflight-configurator
 Icon=/opt/emuflight/emuflight-configurator/icon/emu_icon_128.png
 Terminal=false
