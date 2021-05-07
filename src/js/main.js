@@ -549,7 +549,7 @@ function startProcess() {
 
 function checkForConfiguratorUpdates() {
 
-    var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/Emuflight/EmuConfigurator/releases');
+    var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/uptimefpv/FlowFlight-Configurator/releases');
 
     releaseChecker.loadReleaseData(notifyOutdatedVersion);
 }
