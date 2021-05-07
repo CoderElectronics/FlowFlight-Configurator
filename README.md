@@ -1,3 +1,4 @@
+![](src/images/light-wide-1.svg)
 # FlowFlight Configurator
 
 **FlowFlight Configurator** is a crossplatform configuration tool for the [FlowFlight](https://github.com/CoderElectronics/FlowFlight) flight control system.
